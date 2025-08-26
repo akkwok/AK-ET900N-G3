@@ -2167,7 +2167,7 @@ screen and (max-width: 1023px) {
     font-size: 1.6em;
     font-weight: normal;
     margin-top: 0.15em;
-    text-transform: uppercase
+    /* text-transform: uppercase */
 }
 
 
