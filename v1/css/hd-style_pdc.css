@@ -7723,7 +7723,7 @@ screen and (max-width: 1023px) {
     grid-row-gap: 13px;
     padding: 20px;
     width: 96%;
-    max-width: 1080px;
+    max-width: 1180px;
     margin: 0 auto;
 }
 
@@ -8322,7 +8322,10 @@ screen and (max-width: 1023px) {
 #hd .sec-ksp .hd-container {
     width: 100%
 }
-
+#hd .sec-ksp p a,
+#hd a{
+    color: #ff42e7;
+}
 #hd .sec-ksp p.p1 {
     font-family: "TTNormsProRegular", "Roboto", "Segoe UI", "Arial", "PingFang TC", "Microsoft JhengHei", "Microsoft YaHei", sans-serif;
     color: #fff;
