@@ -8324,7 +8324,18 @@ screen and (max-width: 1023px) {
 }
 #hd .sec-ksp p a,
 #hd a{
-    color: #ff42e7;
+    color: #fff;
+    position: relative;
+}
+#hd .sec-ksp p a:after,
+#hd a:after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background: #fff;
 }
 #hd .sec-ksp p.p1 {
     font-family: "TTNormsProRegular", "Roboto", "Segoe UI", "Arial", "PingFang TC", "Microsoft JhengHei", "Microsoft YaHei", sans-serif;
@@ -9283,6 +9294,9 @@ screen and (max-width: 1023px) {
     font-weight: 600;
 }
 
+#hd .tab a:after{
+    display: none;
+}
 /* #hd .theme-black .tab a:hover span,
 #hd .theme-black .tab a.active span{
     color: #fff !important;
@@ -9881,6 +9895,9 @@ screen and (max-width: 1023px) {
     padding: 1em 1.5em 1em;
     background: #008cf7;
     /* background: linear-gradient(to right, #000 0%, #008cf7 15%, #00dfed 85%, #000 100%); */
+}
+#hd .sec-agentic a.btn_Notify:after{
+    display: none;
 }
 #hd a.btn_Notify:hover,
 #hd a.btn_Notify:active{
